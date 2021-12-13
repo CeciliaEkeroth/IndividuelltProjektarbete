@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Individuellt Projekt Arbete</title>
+    <title>Individuellt Projektarbete</title>
 </head>
 <body>
-    
+    <h1>Individuellt Projektarbete</h1>
+    <label for="sort">Ändra Sortering: </label>
+    <select name="sort" id="sort">
+        <option disabled selected value> -- Välj ett alternativ -- </option>
+        <option value="age">Ålder</option>
+        <option value="firstName">Förnamn</option>
+        <option value="lastName">Efternamn</option>
+        <option value="frontend">Frontend</option>
+        <option value="backend">Backend</option>
+        <option value=".NET">.NET</option>
+    </select>
+    <button id="sortButton">Sortera</button>
+    <div id="studentInfo">
+
+    </div>
+    <ul id="students">
+
+    </ul>
+
+
+    <script src="main.js"></script>
 </body>
 </html>

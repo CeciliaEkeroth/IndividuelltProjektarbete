@@ -33,7 +33,7 @@ async function renderData() {
         let programmeOfStudent = student.programme;
         let studentHobby = student.hobbies;
 
-        studentName.textContent = `namn: ${student.firstName} ${student.lastName}`;
+        studentName.textContent = `Namn: ${student.firstName} ${student.lastName}`;
         studentAge.textContent = `Ålder: ${student.age}`;
         studentHobbies.textContent = `Hobbies: ${student.hobbies}`;
         studentProgramme.textContent = `Utbildning: ${student.programme}`;
@@ -201,6 +201,8 @@ async function renderData() {
   searchBtn.addEventListener("click", () => {
     studentList.innerHTML = "";
     infoContainer.innerHTML = "";
+    infoContainer.style.border = "none";
+    infoContainer.style.backgroundColor = "transparent";
 
     let searchValue = searchBar.value;
     let getStudent = students.filter((student) => {

@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Individuellt Projektarbete</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Individuellt Projektarbete</h1>
     <label for="sort">Ändra Sortering: </label>
     <select name="sort" id="sort">
-        <option disabled selected value> -- Välj ett alternativ -- </option>
-        <option value="age">Ålder</option>
-        <option value="firstName">Förnamn</option>
-        <option value="lastName">Efternamn</option>
-        <option value="frontend">Frontend</option>
-        <option value="backend">Backend</option>
-        <option value=".NET">.NET</option>
+      <option disabled selected value>-- Välj ett alternativ --</option>
+      <option value="age">Ålder</option>
+      <option value="firstName">Förnamn</option>
+      <option value="lastName">Efternamn</option>
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+      <option value=".NET">.NET</option>
     </select>
     <select name="" id="order">
-        <option value="rising">Stigande</option>
-        <option value="falling">Fallande</option>
+      <option value="rising">Stigande</option>
+      <option value="falling">Fallande</option>
     </select>
     <button id="sortButton">Sortera</button>
-    <input type="text" id="searchBar">
+    <input type="text" id="searchBar" />
     <button id="searchBtn">Sök</button>
-    <div id="studentInfo">
-
-    </div>
-    <ul id="students">
-
-    </ul>
-
+    <div id="studentInfo"></div>
+    <ul id="students"></ul>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

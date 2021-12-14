@@ -1,0 +1,25 @@
+body {
+    margin: 15px;
+}
+
+#sortButton {
+    margin-right: 25px;
+}
+
+#students {
+    list-style: none;
+    background-color: rgb(230, 230, 230);
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+#studentInfo {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    width: 50%;
+}
+
